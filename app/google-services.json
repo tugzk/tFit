@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "717216437515",
+    "firebase_url": "https://the-dietitian-498af.firebaseio.com",
+    "project_id": "the-dietitian-498af",
+    "storage_bucket": "the-dietitian-498af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717216437515:android:adf704223e98780bb47e0e",
+        "android_client_info": {
+          "package_name": "com.example.thedietitianfyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717216437515-gacp6opc19j1jh2h3c6ksd9piqepvofr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2a41tu7DBxzz9c8825lobmX37BcqTSSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717216437515-gacp6opc19j1jh2h3c6ksd9piqepvofr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

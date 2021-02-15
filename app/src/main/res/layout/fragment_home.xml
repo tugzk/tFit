@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="18dp">
+
+        <!-- Calories Allowance -->
+        <TableLayout
+            android:id="@+id/tableLayoutCaloriesAllowance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewCaloriesAllowance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="@string/calories_allowance"
+                    android:textColor="@color/SteelBlue"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/textViewCaloriesAllowanceBlank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text=""
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewBlankHome2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="           "
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewCaloriesAllowanceLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="@string/calories_remaining"
+                    android:textColor="@color/SteelBlue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewCaloriesRemainingBlank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:textSize="14sp" />
+
+            </TableRow>
+        </TableLayout>
+        <!-- Calories Allowance -->
+
+        <!-- Blank -->
+        <TableLayout
+            android:id="@+id/tableLayoutBlank1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"/>
+        </TableLayout>
+        <!-- Blank -->
+
+        <!-- Protein Allowance -->
+        <TableLayout
+            android:id="@+id/tableLayoutProteinAllowance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewProteinAllowance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="@string/proteins_allowance"
+                    android:textColor="@color/SteelBlue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewProteinAllowanceBlank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text=""
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/textViewBlankHome4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="            "
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/textViewProteinRemaining"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="@string/proteins_remaining"
+                    android:textColor="@color/SteelBlue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewProteinRemainingBlank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:textSize="14sp"/>
+
+            </TableRow>
+        </TableLayout>
+        <!-- Protein Allowance -->
+
+        <!-- Blank -->
+        <TableLayout
+            android:id="@+id/tableLayoutBlank2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"/>
+        </TableLayout>
+        <!-- Blank -->
+
+        <!-- Carbohydrates Allowance -->
+        <TableLayout
+            android:id="@+id/tableLayoutCarbohydratesAllowance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewCarbohydratesAllowance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="@string/carbohydrates_allowance"
+                    android:textColor="@color/SteelBlue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewCarbohydratesAllowanceBlank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text=""
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/textViewBlankHome5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="              "
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewCarbohydratesRemaining"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="@string/carbohydrates_remaining"
+                    android:textColor="@color/SteelBlue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewCarbohydratesRemainingBlank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:textSize="14sp"/>
+
+            </TableRow>
+        </TableLayout>
+        <!-- Carbohydrates Allowance -->
+
+        <!-- Blank -->
+        <TableLayout
+            android:id="@+id/tableLayoutBlank3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"/>
+        </TableLayout>
+        <!-- Blank -->
+
+        <!-- Fats Allowance -->
+        <TableLayout
+            android:id="@+id/tableLayoutFatsAllowance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewFatsAllowance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="@string/fats_allowance"
+                    android:textColor="@color/SteelBlue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewFatsAllowanceBlank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text=""
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/textViewBlankHome6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="                  "
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewFatsRemaining"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="@string/fats_remaining"
+                    android:textColor="@color/SteelBlue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewFatsRemainingBlank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:textSize="14sp"/>
+
+            </TableRow>
+        </TableLayout>
+        <!-- Fats Allowance -->
+
+        <!-- Blank -->
+        <TableLayout
+            android:id="@+id/tableLayoutBlank4"
+            android:layout_width="18dp"
+            android:layout_height="41dp">
+
+            <TextView android:layout_width="wrap_content" />
+        </TableLayout>
+        <!-- Blank -->
+
+        <!-- Foods Consumed -->
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/tableRowHomeFoodConsumed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageViewAddFood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/baseline_add_black_18dp" />
+
+                <TextView
+                    android:id="@+id/textViewTitleFoodConsumed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="@string/foods_consumed"
+                    android:textColor="@color/SteelBlue"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textViewHomeCalories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10"
+                    android:text="@string/calories"
+                    android:textSize="18sp" />
+
+            </TableRow>
+        </TableLayout>
+        <!-- Foods Consumed -->
+
+
+
+        <!-- List of Foods -->
+        <TableLayout
+            android:id="@+id/tableLayoutHomeItems"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </TableLayout>
+        <!-- List of Foods -->
+
+    </LinearLayout>
+</ScrollView>

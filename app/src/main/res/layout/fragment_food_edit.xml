@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:orientation="vertical">
+
+        <!-- Edit Food -->
+        <TextView
+            android:id="@+id/textViewEditFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/edit_food"
+            android:textColor="@color/SteelBlue"
+            android:textSize="18sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Food Name-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textViewEditFoodName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/name" />
+
+                <EditText
+                    android:id="@+id/editTextFoodName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/food_name"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+            </TableRow>
+            <!-- Food Name -->
+
+            <!-- Manufacturer -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textViewEditFoodManufacturer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/manufacturer" />
+
+                <EditText
+                    android:id="@+id/editTextFoodManufacturer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/food_manufacturer"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+            </TableRow>
+            <!-- Manufacturer -->
+
+            <!-- Ingredients -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textViewEditFoodIngredients"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/ingredient" />
+
+                <EditText
+                    android:id="@+id/editTextFoodIngredients"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="30"
+                    android:lines="3"
+                    android:hint=""
+                    android:inputType="text"
+                    android:textSize="14sp" />
+            </TableRow>
+            <!-- Ingredients -->
+
+        </TableLayout>
+        <!-- Edit Food -->
+
+        <!-- Serving Table -->
+        <TextView
+            android:id="@+id/textViewServingInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/serving_info"
+            android:textColor="@color/SteelBlue"
+            android:textSize="18sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Serving size -->
+                <TextView
+                    android:id="@+id/textViewEditFoodServingSize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/serving_size" />
+
+                <EditText
+                    android:id="@+id/EditFoodServingSize"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="3"
+                    android:hint=""
+                    android:inputType="numberDecimal"
+                    android:textSize="14sp" />
+
+            </TableRow>
+            <!-- Serving Size -->
+
+            <!-- Serving Measurement -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textViewEditServingMeasurement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/serving_measurement" />
+
+                <EditText
+                    android:id="@+id/editTextServingMeasurement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="3"
+                    android:hint=""
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+            </TableRow>
+            <!-- Measurement type -->
+        </TableLayout>
+        <!-- Serving Table -->
+
+        <!-- Calories table -->
+        <TextView
+            android:id="@+id/textViewEditFoodCaloriesTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/calories_table"
+            android:inputType="number"
+            android:textColor="@color/SteelBlue"
+            android:textSize="18sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/textViewBlank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:text="@string/blank" />
+
+                <TextView
+                    android:id="@+id/textViewEditFoodCalories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:text="@string/calories" />
+
+                <TextView
+                    android:id="@+id/textViewEditFoodProteins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:text="@string/protein" />
+
+                <TextView
+                    android:id="@+id/textViewEditFoodCarbs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:text="@string/carbs" />
+
+                <TextView
+                    android:id="@+id/textViewEditFoodFat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:text="@string/fat" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewEditFoodPerPortion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:text="@string/per_hundred_gram" />
+
+                <EditText
+                    android:id="@+id/editTextFoodCaloriesPerPortion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:autofillHints=""
+                    android:hint="@string/calories"
+                    android:inputType="numberDecimal"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editTextFoodProteinsPerPortion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:autofillHints=""
+                    android:hint="@string/protein"
+                    android:inputType="numberDecimal"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editTextFoodCarbsPerPortion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:autofillHints=""
+                    android:hint="@string/carbs"
+                    android:inputType="numberDecimal"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editTextFoodFatPerPortion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:autofillHints=""
+                    android:hint="@string/fat"
+                    android:inputType="numberDecimal"
+                    android:textSize="14sp" />
+            </TableRow>
+
+        </TableLayout>
+        <!-- //Calories table -->
+
+        <Button
+            android:id="@+id/buttonSaveEditFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:background="@drawable/custom_buttons"/>
+
+    </LinearLayout>
+</ScrollView>

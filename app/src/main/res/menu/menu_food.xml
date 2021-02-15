@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Add -->
+    <item android:id="@+id/action_add_food"
+        android:icon="@drawable/baseline_add_black_18dp"
+        android:title="@string/add"
+        app:showAsAction="ifRoom" />
+    <!-- Add -->
+
+    <!-- Edit -->
+    <item android:id="@+id/action_edit_food"
+        android:icon="@drawable/baseline_create_black_18dp"
+        android:title="@string/edit"
+        app:showAsAction="ifRoom" />
+    <!-- Edit -->
+
+    <!-- Delete -->
+    <item android:id="@+id/action_delete_food"
+        android:icon="@drawable/baseline_delete_black_18dp"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom" />
+    <!-- Delete -->
+
+    <!-- Search -->
+    <item android:id="@+id/action_search_food"
+        android:icon="@drawable/baseline_search_black_18dp"
+        android:title="@string/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+    <!-- Search -->
+
+    <!-- Add to Diary -->
+    <item android:id="@+id/action_add_food_to_diary"
+        android:icon="@drawable/baseline_add_black_18dp"
+        android:title="@string/add"
+        app:showAsAction="ifRoom" />
+    <!-- Add to Diary -->
+
+
+
+</menu>

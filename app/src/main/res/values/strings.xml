@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">The Dietitian FYP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="diet">Diet!</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="height">Height</string>
+    <string name="activity_level">Activity Level</string>
+    <string name="weight">Weight</string>
+    <string name="target_weight">Target Weight</string>
+
+    <string name="measurements">Measurements</string>
+    <string name="kilogram">Kilogram</string>
+    <string name="pound">Pound</string>
+    <string name="metric">Metric</string>
+    <string name="imperial">Imperial</string>
+    <string name="inches">Inches</string>
+    <string name="kg">KG</string>
+    <string name="sign_up">Sign up</string>
+    <string name="cm">CM</string>
+    <string name="feet_inches">feet and inches</string>
+
+    <string name="error">Error!</string>
+    <string name="errorLogo">Error</string>
+
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+
+
+    <string-array name="array_months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <!-- measurements -->
+    <string-array name="array_measurement">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+    <!-- fitness levels -->
+    <string-array name="array_activity_level">
+        <item>No exercise</item>
+        <item>Light exercise (1–3 days per week)</item>
+        <item>Moderate exercise (3–5 days per week)</item>
+        <item>Heavy exercise (6–7 days per week)</item>
+    </string-array>
+
+    <!-- months -->
+    <string name="january">Jan</string>
+    <string name="february">Feb</string>
+    <string name="march">Mar</string>
+    <string name="April">Apr</string>
+    <string name="may">May</string>
+    <string name="june">Jun</string>
+    <string name="july">Jul</string>
+    <string name="august">Aug</string>
+    <string name="september">Sept</string>
+    <string name="october">Oct</string>
+    <string name="november">Nov</string>
+    <string name="december">Dec</string>
+    <string name="blank"> </string>
+    <string name="dd">dd</string>
+    <string name="yy">yy</string>
+
+
+    <string name="enter_a_valid_email">enter a valid email</string>
+    <string name="measurement">Measurement</string>
+
+    <string name="weekly_goal">Weekly Goal</string>
+
+    <string-array name="array_weekly_goal">
+        <item> Gain</item>
+        <item> Lose></item>
+    </string-array>
+
+    <string-array name="array_weekly_goal_kg">
+        <item>0.5</item>
+        <item>1</item>
+        <item>1.5</item>
+    </string-array>
+
+
+    <string name="kg_each_week">KG each week</string>
+    <string name="pounds_each_week">Pounds each week</string>
+    <string name="enter_target_weight">Enter target weight</string>
+    <string name="goal">Goal</string>
+    <string name="amount">Amount</string>
+    <string name="begin">Begin</string>
+    <string name="user_name">User Name</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="categories">Categories</string>
+    <string name="food">Food</string>
+    <string name="thedietitian">theDietitian</string>
+
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="name">Food Name</string>
+    <string name="parent">Parent</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="do_you_want_to_delete">Do you want to delete?</string>
+    <string name="number">Number</string>
+    <string name="list_item">List item</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search Hint</string>
+    <string name="food_search">Food Search</string>
+    <string name="image_food">TODO</string>
+    <string name="about">About</string>
+    <string name="description">Description</string>
+    <string name="calories_table">Calories Table</string>
+    <string name="protein">Protein</string>
+    <string name="calories">Calories</string>
+    <string name="carbs">Carbs</string>
+    <string name="fat">Fat</string>
+    <string name="manufacturer">Food Manufacturer</string>
+    <string name="per_hundred_gram">per hundred grams</string>
+    <string name="per_meal">per meal</string>
+    <string name="ingredient">Ingredients</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up_here"><u>Don\'t have an account? Sign up here!</u></string>
+    <string name="logout" />
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="reset">Reset</string>
+    <string name="please_provide_us_with_your_email_and_we_will_email_you_a_reset_link">Please provide us with your email and we will email you a reset link</string>
+    <string name="edit_food">Edit Food</string>
+    <string name="serving_info">Serving Info</string>
+    <string name="measurement_type">Measurement Type</string>
+    <string name="measurement_qauntity">Measurement Qauntity</string>
+    <string name="food_name">Food Name</string>
+    <string name="food_manufacturer">Food Manufacturer</string>
+    <string name="food_ingredients">Food Ingredients</string>
+    <string name="serving_quantity">Serving Quantity</string>
+    <string name="scan">Scan</string>
+    <string name="serving_size">Serving Size</string>
+    <string name="serving_measurement">Serving Measurement</string>
+
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="pre_workout">Pre-workout</string>
+    <string name="post_workout">Post-workout</string>
+    <string name="dinner">Dinner</string>
+    <string name="snack">Snack</string>
+    <string name="select_portion_size">Select portion size</string>
+    <string name="select_portion_gram">Select portion gram</string>
+    <string name="add_to_diary">Add to diary</string>
+    <string name="per_portion">per portion</string>
+    <string name="foods_consumed">Foods Consumed:</string>
+    <string name="foodname">FoodName</string>
+    <string name="calories_allowance">Calories Allowance:</string>
+    <string name="proteins_remaining">Proteins Remaining:</string>
+    <string name="calories_remaining">Calories Remaining:</string>
+    <string name="proteins_allowance">Proteins Allowance:</string>
+    <string name="carbohydrates_remaining">Carbs Remaining:</string>
+    <string name="carbohydrates_allowance">Carbs Allowance:</string>
+    <string name="fats_remaining">Fats Remaining:</string>
+    <string name="fats_allowance">Fats Allowance:</string>
+    <string name="title_activity_on_boarding">OnBoardingActivity</string>
+    <string name="edit_goal">Edit Goal</string>
+</resources>

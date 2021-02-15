@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="welcome">
+        <item>Hello</item>
+        <item>Welcome to my app</item>
+        <item>You are almost ready to use theDietitian</item>
+
+    </string-array>
+    
+    
+</resources>
